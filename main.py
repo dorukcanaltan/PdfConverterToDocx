@@ -5,7 +5,7 @@ pdf_path = input("Lütfen PDF dosyasının yolunu giriniz: ")
 docx_file = pdf_path.replace('.pdf', '') + ".docx"
 
 cv = Converter(pdf_path)
-# PDF'i DOCX'e dönüştür
+
 cv.convert(docx_file)
 
 cv.close()
